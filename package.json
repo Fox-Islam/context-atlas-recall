@@ -1,0 +1,21 @@
+{
+  "name": "context-atlas-recall",
+  "version": "0.1.0",
+  "description": "Claude Code plugin: context-atlas retrieval over the conversation, memory and large files",
+  "scripts": {
+    "build": "esbuild src/hook.mjs src/server.mjs --bundle --platform=node --format=esm --target=node20 --outdir=dist --out-extension:.js=.mjs --banner:js=\"import{createRequire as __cr}from'node:module';const require=__cr(import.meta.url);\"",
+    "test": "node --test \"test/*.test.mjs\""
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "@phox-js/context-atlas": "^1.1.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  },
+  "private": true
+}

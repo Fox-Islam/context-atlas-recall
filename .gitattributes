@@ -1,0 +1,3 @@
+# A checkout with core.autocrlf=true writes CRLF, and the test that compares dist/ with a fresh
+# build compares bytes, so every file is kept LF.
+* text=auto eol=lf

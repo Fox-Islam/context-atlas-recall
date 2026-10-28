@@ -1,0 +1,13 @@
+{
+  "name": "context-atlas-recall",
+  "description": "context-atlas retrieval for Claude Code",
+  "owner": {
+    "name": "Fox Islam"
+  },
+  "plugins": [
+    {
+      "name": "context-atlas-recall",
+      "source": "./"
+    }
+  ]
+}

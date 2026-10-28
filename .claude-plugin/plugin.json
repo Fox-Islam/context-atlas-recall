@@ -1,0 +1,17 @@
+{
+  "name": "context-atlas-recall",
+  "version": "0.1.0",
+  "description": "Recall compacted conversation, memory and large files through context-atlas retrieval instead of grepping",
+  "author": {
+    "name": "Fox Islam"
+  },
+  "license": "MIT",
+  "mcpServers": {
+    "atlas": {
+      "command": "node",
+      "args": [
+        "${CLAUDE_PLUGIN_ROOT}/dist/server.mjs"
+      ]
+    }
+  }
+}
